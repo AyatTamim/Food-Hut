@@ -526,10 +526,15 @@ body {
   }
 }
 
-@media (min-width: 266px) and (max-width: 775px) {
-  :root {
-    line-height: 0px;
-    font-size: 11px;
+@media (min-width: 266px) and (max-width: 900px) {
+  .above_content {
+    min-height: auto;
+  }
+  @media (min-width: 266px) and (max-width: 775px) {
+    :root {
+      line-height: 0px;
+      font-size: 11px;
+    }
   }
   .container {
     width: 100%;
@@ -620,7 +625,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    gap: 80px;
   }
 }
 
