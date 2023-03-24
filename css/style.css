@@ -415,6 +415,7 @@ body {
 .copy_right span {
   color: var(--heart-color);
 }
+
 /*************************!  *************************/
 
 @media (min-width: 85px) and (max-width: 266px) {
@@ -625,6 +626,7 @@ body {
 
 @media (min-width: 385px) and (max-width: 471px) {
   .reviews {
+    min-height: 100vh;
     zoom: 0.8;
   }
 }
@@ -637,16 +639,19 @@ body {
 }
 @media (min-width: 300px) and (max-width: 385px) {
   .reviews {
+    min-height: 100vh;
     zoom: 0.6;
   }
 }
 @media (min-width: 234px) and (max-width: 301px) {
   .reviews {
+    min-height: 100vh;
     zoom: 0.5;
   }
 }
 @media (min-width: 140px) and (max-width: 234px) {
   .reviews {
+    min-height: 100vh;
     zoom: 0.3;
   }
 }
